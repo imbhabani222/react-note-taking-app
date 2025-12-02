@@ -41,4 +41,3 @@ Designed with a clean UI, markdown support, keyboard shortcuts, and smooth clien
 - **Fully responsive layout** for mobile, tablet & desktop  
 - **Fast performance** with automatic code-splitting via Vite  
 
----
