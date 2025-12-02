@@ -1,90 +1,44 @@
-📝 Notoora — A Modern & Intuitive Note-Taking Application
+# Notoora — A Simple & Modern Note-Taking App
 
-Notoora is a clean, minimal, and fully responsive note-taking application designed to make organizing your thoughts effortless. Built with React + Vite, it delivers a smooth, fast, and delightful user experience with powerful productivity features.
+Notoora is a minimal, fast, and intuitive note-taking application built with **React**, **Vite**, and **TypeScript**. It enables you to create, edit, delete, and organize notes with tags—while using **Local Storage** to persist your data.  
+Designed with a clean UI, markdown support, keyboard shortcuts, and smooth client-side routing, Notoora offers a distraction-free writing experience.
 
-👉 Live Demo:
-https://notoora.netlify.app
+<p align="left">
+  <a href="https://notoora.netlify.app"><img src="https://img.shields.io/badge/Live%20Demo-Netlify-brightgreen?style=flat-square" /></a>
+  <img src="https://img.shields.io/badge/React-18-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Vite-Fast%20Builds-purple?style=flat-square" />
+  <img src="https://img.shields.io/badge/TypeScript-Enabled-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" />
+</p>
 
-✨ Features
+---
 
-Create, Edit & Delete Notes
-Simple and intuitive UI to manage your notes without clutter.
+## 🚀 Live Demo
 
-Smart Tag Management
-Add, edit, and delete tags to keep your notes organized.
+👉 **https://notoora.netlify.app**
 
-Real-time Search & Filters
-Filter notes instantly by keywords or tags.
+---
 
-Organized Note View
-Notes display with tag badges, timestamps, and a clean design.
+## 🛠 Tech Stack
 
-Local Storage Persistence
-Your notes and tags are auto-saved — nothing gets lost on refresh.
+- **React**
+- **Vite**
+- **TypeScript**
+- **React Router**
+- **React Bootstrap**
+- **Local Storage API**
 
-Fully Responsive UI
-Optimized for desktops, tablets, and mobile devices.
+---
 
-Blazing Fast
-Powered by Vite for quick builds and fast loading.
+## ✨ Features
 
-🛠 Tech Stack
+- **Create, edit & delete notes**  
+- **Add, update & delete tags**  
+- **Smart search & filtering** using tags or keywords  
+- **Markdown-supported writing** for rich note formatting  
+- **Keyboard shortcut:** Press **N** to create a new note  
+- **Local Storage persistence** (no backend required)  
+- **Fully responsive layout** for mobile, tablet & desktop  
+- **Fast performance** with automatic code-splitting via Vite  
 
-React 18
-
-Vite
-
-React Router
-
-React Bootstrap
-
-Local Storage API
-
-📂 Folder Structure
-notoora/
-│
-├── public/
-│   └── _redirects
-│
-└── src/
-    ├── components/
-    ├── pages/
-    ├── hooks/
-    ├── context/
-    ├── styles/
-    ├── App.jsx
-    └── main.jsx
-
-🚀 Getting Started
-1️⃣ Clone the repository
-git clone https://github.com/your-username/notoora.git
-cd notoora
-
-2️⃣ Install dependencies
-npm install
-
-3️⃣ Start development server
-npm run dev
-
-4️⃣ Build for production
-npm run build
-
-🔧 Deployment Notes (Netlify)
-
-To ensure client-side routing works (e.g., /about, /new), include:
-
-File: public/_redirects
-
-/*    /index.html   200
-
-
-This prevents 404 errors on page refresh.
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to fork the repo and open a pull request.
-
-📄 License
-
-This project is licensed under the MIT License — free for personal and commercial use.
+---
