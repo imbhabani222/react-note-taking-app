@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container } from "react-bootstrap";
+import { Container, Stack } from "react-bootstrap";
 import {
   Navigate,
   Route,
@@ -111,7 +111,16 @@ const App = () => {
     <div className="d-flex flex-column min-vh-100">
       <main className="flex-grow-1">
         <Container className="my-4">
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense
+            fallback={
+              <Stack
+                className="w-100 justify-content-center align-items-center"
+                style={{ height: "100vh" }}
+              >
+                <span className="loader"></span>
+              </Stack>
+            }
+          >
             <Routes>
               <Route
                 path="/"
